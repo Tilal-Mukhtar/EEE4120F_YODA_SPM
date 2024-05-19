@@ -1,9 +1,7 @@
 function goldenMeasure(method, file)
     [audio,fs] = audioread(file);
+    audio = int16(audio*32000); 
     if method == 1
-       
-        % m = memmapfile('input.mem'); 
-        % audio = m.Data;
         min = audio(1); % choose min
         max = audio(1); % choose max
         tic; [min, max] = MinMax(audio,min, max); time1 = toc;
@@ -12,8 +10,6 @@ function goldenMeasure(method, file)
         disp(['Runtime: ', num2str(time1*1000), 'ms']);
 
     elseif method == 2
-        % m = memmapfile('input.mem');
-        % audio = m.Data; 
         interval = input('Enter an Interval Length: '); % input interval length
         tic; [min_arr, max_arr] = MinMaxInt(audio, interval);
 
