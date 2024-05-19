@@ -4,4 +4,3 @@
 * Audio, which contains the audio files used in the implementation
 * Matlab, which contains the Golden Measure Source Code
 *  Verilog, which contains the Verilog Source Code and FPGA implementation code.
-*  
