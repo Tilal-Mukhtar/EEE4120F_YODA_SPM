@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="43.500000 us"></ZoomStartTime>
+      <ZoomEndTime time="171.300001 us"></ZoomEndTime>
+      <Cursor1Time time="150.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="160" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_in" type="array">
+      <obj_property name="ElementShortName">uart_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_in_valid" type="logic">
+      <obj_property name="ElementShortName">uart_data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/tx_full" type="logic">
+      <obj_property name="ElementShortName">tx_full</obj_property>
+      <obj_property name="ObjectShortName">tx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_in_ready" type="logic">
+      <obj_property name="ElementShortName">uart_data_in_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_out" type="array">
+      <obj_property name="ElementShortName">uart_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_out_ready" type="logic">
+      <obj_property name="ElementShortName">uart_data_out_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rx_empty" type="logic">
+      <obj_property name="ElementShortName">rx_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uart_data_out_valid" type="logic">
+      <obj_property name="ElementShortName">uart_data_out_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/transmit" type="logic">
+      <obj_property name="ElementShortName">transmit</obj_property>
+      <obj_property name="ObjectShortName">transmit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/CLOCK_PERIOD" type="array">
+      <obj_property name="ElementShortName">CLOCK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/TIMEOUT" type="array">
+      <obj_property name="ElementShortName">TIMEOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TIMEOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_data_in" type="array">
+      <obj_property name="ElementShortName">spm_data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_data_in_ready" type="logic">
+      <obj_property name="ElementShortName">spm_data_in_ready</obj_property>
+      <obj_property name="ObjectShortName">spm_data_in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_data_in_valid" type="logic">
+      <obj_property name="ElementShortName">spm_data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">spm_data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_min_out" type="array">
+      <obj_property name="ElementShortName">spm_min_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_min_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_min_out_ready" type="logic">
+      <obj_property name="ElementShortName">spm_min_out_ready</obj_property>
+      <obj_property name="ObjectShortName">spm_min_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_min_out_valid" type="logic">
+      <obj_property name="ElementShortName">spm_min_out_valid</obj_property>
+      <obj_property name="ObjectShortName">spm_min_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_max_out" type="array">
+      <obj_property name="ElementShortName">spm_max_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_max_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_max_out_ready" type="logic">
+      <obj_property name="ElementShortName">spm_max_out_ready</obj_property>
+      <obj_property name="ObjectShortName">spm_max_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm_max_out_valid" type="logic">
+      <obj_property name="ElementShortName">spm_max_out_valid</obj_property>
+      <obj_property name="ObjectShortName">spm_max_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/interval" type="array">
+      <obj_property name="ElementShortName">interval[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interval[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/timer" type="array">
+      <obj_property name="ElementShortName">timer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_in" type="array">
+      <obj_property name="ElementShortName">uart_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_in_valid" type="logic">
+      <obj_property name="ElementShortName">uart_data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/tx_full" type="logic">
+      <obj_property name="ElementShortName">tx_full</obj_property>
+      <obj_property name="ObjectShortName">tx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_in_ready" type="logic">
+      <obj_property name="ElementShortName">uart_data_in_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_data_in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_out" type="array">
+      <obj_property name="ElementShortName">uart_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_out_ready" type="logic">
+      <obj_property name="ElementShortName">uart_data_out_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/rx_empty" type="logic">
+      <obj_property name="ElementShortName">rx_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/uart_data_out_valid" type="logic">
+      <obj_property name="ElementShortName">uart_data_out_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_data_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/tx_counter" type="array">
+      <obj_property name="ElementShortName">tx_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/tx_delimiter" type="array">
+      <obj_property name="ElementShortName">tx_delimiter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_delimiter[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/send_delimiter" type="logic">
+      <obj_property name="ElementShortName">send_delimiter</obj_property>
+      <obj_property name="ObjectShortName">send_delimiter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/DELIMITER" type="array">
+      <obj_property name="ElementShortName">DELIMITER[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DELIMITER[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/interval" type="array">
+      <obj_property name="ElementShortName">interval[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interval[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/data_in_valid" type="logic">
+      <obj_property name="ElementShortName">data_in_valid</obj_property>
+      <obj_property name="ObjectShortName">data_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_out_ready" type="logic">
+      <obj_property name="ElementShortName">min_out_ready</obj_property>
+      <obj_property name="ObjectShortName">min_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_out_ready" type="logic">
+      <obj_property name="ElementShortName">max_out_ready</obj_property>
+      <obj_property name="ObjectShortName">max_out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_out" type="array">
+      <obj_property name="ElementShortName">min_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_out" type="array">
+      <obj_property name="ElementShortName">max_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/data_in_ready" type="logic">
+      <obj_property name="ElementShortName">data_in_ready</obj_property>
+      <obj_property name="ObjectShortName">data_in_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_out_valid" type="logic">
+      <obj_property name="ElementShortName">min_out_valid</obj_property>
+      <obj_property name="ObjectShortName">min_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_out_valid" type="logic">
+      <obj_property name="ElementShortName">max_out_valid</obj_property>
+      <obj_property name="ObjectShortName">max_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/timer" type="array">
+      <obj_property name="ElementShortName">timer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/compare" type="logic">
+      <obj_property name="ElementShortName">compare</obj_property>
+      <obj_property name="ObjectShortName">compare</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/store" type="logic">
+      <obj_property name="ElementShortName">store</obj_property>
+      <obj_property name="ObjectShortName">store</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/divide" type="logic">
+      <obj_property name="ElementShortName">divide</obj_property>
+      <obj_property name="ObjectShortName">divide</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/sqrt" type="logic">
+      <obj_property name="ElementShortName">sqrt</obj_property>
+      <obj_property name="ObjectShortName">sqrt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filter" type="logic">
+      <obj_property name="ElementShortName">filter</obj_property>
+      <obj_property name="ObjectShortName">filter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/end_of_stream" type="logic">
+      <obj_property name="ElementShortName">end_of_stream</obj_property>
+      <obj_property name="ObjectShortName">end_of_stream</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/interval_counter" type="array">
+      <obj_property name="ElementShortName">interval_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interval_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min" type="array">
+      <obj_property name="ElementShortName">min[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max" type="array">
+      <obj_property name="ElementShortName">max[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_counter" type="array">
+      <obj_property name="ElementShortName">min_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_counter" type="array">
+      <obj_property name="ElementShortName">max_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sum" type="array">
+      <obj_property name="ElementShortName">min_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sum" type="array">
+      <obj_property name="ElementShortName">max_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sq_sum" type="array">
+      <obj_property name="ElementShortName">min_sq_sum[63:0]</obj_property>
+      <obj_property name="ObjectShortName">min_sq_sum[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sq_sum" type="array">
+      <obj_property name="ElementShortName">max_sq_sum[63:0]</obj_property>
+      <obj_property name="ObjectShortName">max_sq_sum[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_mean" type="array">
+      <obj_property name="ElementShortName">min_mean[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_mean[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_mean" type="array">
+      <obj_property name="ElementShortName">max_mean[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_mean[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_std" type="array">
+      <obj_property name="ElementShortName">min_std[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_std[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_std" type="array">
+      <obj_property name="ElementShortName">max_std[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_std[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_in" type="array">
+      <obj_property name="ElementShortName">min_fifo_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_in" type="array">
+      <obj_property name="ElementShortName">max_fifo_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_write" type="logic">
+      <obj_property name="ElementShortName">min_fifo_write</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_write" type="logic">
+      <obj_property name="ElementShortName">max_fifo_write</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_out" type="array">
+      <obj_property name="ElementShortName">min_fifo_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_out" type="array">
+      <obj_property name="ElementShortName">max_fifo_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_read" type="logic">
+      <obj_property name="ElementShortName">min_fifo_read</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_read" type="logic">
+      <obj_property name="ElementShortName">max_fifo_read</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_full" type="logic">
+      <obj_property name="ElementShortName">min_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_full" type="logic">
+      <obj_property name="ElementShortName">max_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">min_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">min_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">max_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">max_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sqrt_in" type="array">
+      <obj_property name="ElementShortName">min_sqrt_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">min_sqrt_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sqrt_in" type="array">
+      <obj_property name="ElementShortName">max_sqrt_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">max_sqrt_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sqrt_in_valid" type="logic">
+      <obj_property name="ElementShortName">min_sqrt_in_valid</obj_property>
+      <obj_property name="ObjectShortName">min_sqrt_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sqrt_in_valid" type="logic">
+      <obj_property name="ElementShortName">max_sqrt_in_valid</obj_property>
+      <obj_property name="ObjectShortName">max_sqrt_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sqrt_out" type="array">
+      <obj_property name="ElementShortName">min_sqrt_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">min_sqrt_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sqrt_out" type="array">
+      <obj_property name="ElementShortName">max_sqrt_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">max_sqrt_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sqrt_out_valid" type="logic">
+      <obj_property name="ElementShortName">min_sqrt_out_valid</obj_property>
+      <obj_property name="ObjectShortName">min_sqrt_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sqrt_out_valid" type="logic">
+      <obj_property name="ElementShortName">max_sqrt_out_valid</obj_property>
+      <obj_property name="ObjectShortName">max_sqrt_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_sqrt_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">min_sqrt_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">min_sqrt_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_sqrt_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">max_sqrt_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">max_sqrt_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_dividend_1" type="array">
+      <obj_property name="ElementShortName">min_dividend_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_dividend_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_dividend_1" type="array">
+      <obj_property name="ElementShortName">max_dividend_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_dividend_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_dividend_1_valid" type="logic">
+      <obj_property name="ElementShortName">min_dividend_1_valid</obj_property>
+      <obj_property name="ObjectShortName">min_dividend_1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_dividend_1_valid" type="logic">
+      <obj_property name="ElementShortName">max_dividend_1_valid</obj_property>
+      <obj_property name="ObjectShortName">max_dividend_1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_divisor_1" type="array">
+      <obj_property name="ElementShortName">min_divisor_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_divisor_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_divisor_1" type="array">
+      <obj_property name="ElementShortName">max_divisor_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_divisor_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_divisor_1_valid" type="logic">
+      <obj_property name="ElementShortName">min_divisor_1_valid</obj_property>
+      <obj_property name="ObjectShortName">min_divisor_1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_divisor_1_valid" type="logic">
+      <obj_property name="ElementShortName">max_divisor_1_valid</obj_property>
+      <obj_property name="ObjectShortName">max_divisor_1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_1_out" type="array">
+      <obj_property name="ElementShortName">min_div_1_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">min_div_1_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_1_out" type="array">
+      <obj_property name="ElementShortName">max_div_1_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">max_div_1_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_1_out_valid" type="logic">
+      <obj_property name="ElementShortName">min_div_1_out_valid</obj_property>
+      <obj_property name="ObjectShortName">min_div_1_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_1_out_valid" type="logic">
+      <obj_property name="ElementShortName">max_div_1_out_valid</obj_property>
+      <obj_property name="ObjectShortName">max_div_1_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_1_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">min_div_1_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">min_div_1_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_1_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">max_div_1_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">max_div_1_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_dividend_2" type="array">
+      <obj_property name="ElementShortName">min_dividend_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_dividend_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_dividend_2" type="array">
+      <obj_property name="ElementShortName">max_dividend_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_dividend_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_dividend_2_valid" type="logic">
+      <obj_property name="ElementShortName">min_dividend_2_valid</obj_property>
+      <obj_property name="ObjectShortName">min_dividend_2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_dividend_2_valid" type="logic">
+      <obj_property name="ElementShortName">max_dividend_2_valid</obj_property>
+      <obj_property name="ObjectShortName">max_dividend_2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_divisor_2" type="array">
+      <obj_property name="ElementShortName">min_divisor_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_divisor_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_divisor_2" type="array">
+      <obj_property name="ElementShortName">max_divisor_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_divisor_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_divisor_2_valid" type="logic">
+      <obj_property name="ElementShortName">min_divisor_2_valid</obj_property>
+      <obj_property name="ObjectShortName">min_divisor_2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_divisor_2_valid" type="logic">
+      <obj_property name="ElementShortName">max_divisor_2_valid</obj_property>
+      <obj_property name="ObjectShortName">max_divisor_2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_2_out" type="array">
+      <obj_property name="ElementShortName">min_div_2_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">min_div_2_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_2_out" type="array">
+      <obj_property name="ElementShortName">max_div_2_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">max_div_2_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_2_out_valid" type="logic">
+      <obj_property name="ElementShortName">min_div_2_out_valid</obj_property>
+      <obj_property name="ObjectShortName">min_div_2_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_2_out_valid" type="logic">
+      <obj_property name="ElementShortName">max_div_2_out_valid</obj_property>
+      <obj_property name="ObjectShortName">max_div_2_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/min_div_2_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">min_div_2_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">min_div_2_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/max_div_2_out_valid_reg" type="logic">
+      <obj_property name="ElementShortName">max_div_2_out_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">max_div_2_out_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_in" type="array">
+      <obj_property name="ElementShortName">filt_min_fifo_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_in" type="array">
+      <obj_property name="ElementShortName">filt_max_fifo_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_write" type="logic">
+      <obj_property name="ElementShortName">filt_min_fifo_write</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_write" type="logic">
+      <obj_property name="ElementShortName">filt_max_fifo_write</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_out" type="array">
+      <obj_property name="ElementShortName">filt_min_fifo_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_out" type="array">
+      <obj_property name="ElementShortName">filt_max_fifo_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_read" type="logic">
+      <obj_property name="ElementShortName">filt_min_fifo_read</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_read" type="logic">
+      <obj_property name="ElementShortName">filt_max_fifo_read</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_full" type="logic">
+      <obj_property name="ElementShortName">filt_min_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_full" type="logic">
+      <obj_property name="ElementShortName">filt_max_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_min_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">filt_min_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">filt_min_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/filt_max_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">filt_max_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">filt_max_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/COMPARE" type="array">
+      <obj_property name="ElementShortName">COMPARE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COMPARE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/STORE" type="array">
+      <obj_property name="ElementShortName">STORE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STORE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/SQUARE_ROOT" type="array">
+      <obj_property name="ElementShortName">SQUARE_ROOT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SQUARE_ROOT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/DIVIDE" type="array">
+      <obj_property name="ElementShortName">DIVIDE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DIVIDE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/FILTER" type="array">
+      <obj_property name="ElementShortName">FILTER[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FILTER[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/MIN" type="array">
+      <obj_property name="ElementShortName">MIN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MIN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/MAX" type="array">
+      <obj_property name="ElementShortName">MAX[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top/spm/END_OF_STREAM" type="array">
+      <obj_property name="ElementShortName">END_OF_STREAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">END_OF_STREAM[15:0]</obj_property>
+   </wvobject>
+</wave_config>

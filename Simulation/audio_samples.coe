@@ -1,0 +1,27 @@
+; Memory initialization file for Single Port Block Memory.
+;
+; This .COE file specifies initialization values for a block
+; memory of depth=220500, and width=16.
+;
+memory_initialization_radix = 16;
+memory_initialization_vector =
+0001,
+0002,
+0003,
+0004,
+0005,
+0006,
+0007,
+0008,
+0009,
+000A,
+0001,
+0002,
+0003,
+0004,
+0005,
+0006,
+0007,
+0008,
+0009,
+000A;
