@@ -14,47 +14,4 @@ WARNING: [VRFC 10-3091] actual bit length 48 differs from formal bit length 32 f
 WARNING: [VRFC 10-3091] actual bit length 48 differs from formal bit length 32 for port 's_axis_cartesian_tdata' [C:/Users/tmukh/Desktop/UCT/4/EEE4120F/Git/Vivado/SPM.srcs/sources_1/new/spm.v:189]
 WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [C:/Users/tmukh/Desktop/UCT/4/EEE4120F/Git/Vivado/SPM.srcs/sources_1/new/bram.v:64]
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module unisims_ver.BUFG
-Compiling module unisims_ver.IBUF
-Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
-Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
-Compiling module xil_defaultlib.clk_wiz_0
-Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
-Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
-Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
-Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
-Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="art...
-Compiling module xil_defaultlib.blk_mem_gen_0
-Compiling module xil_defaultlib.bram
-Compiling module xil_defaultlib.baud_rate_generator(BAUD_RATE=92...
-Compiling module xil_defaultlib.uart_rx
-Compiling module xil_defaultlib.uart_tx
-Compiling module unisims_ver.GND
-Compiling module unisims_ver.x_lut2_mux4
-Compiling module unisims_ver.LUT2
-Compiling module unisims_ver.x_lut1_mux2
-Compiling module unisims_ver.LUT1
-Compiling module unisims_ver.FDRE_default
-Compiling module unisims_ver.SRL16E_default
-Compiling module unisims_ver.FDPE_default
-Compiling module unisims_ver.FF18_INTERNAL_VLOG(DATA_WIDTH=18...
-Compiling module unisims_ver.FIFO18E1(ALMOST_EMPTY_OFFSET=13'...
-Compiling module unisims_ver.LUT4
-Compiling module unisims_ver.FDCE_default
-Compiling module xil_defaultlib.fifo_generator_0
-Compiling module xil_defaultlib.uart
-Compiling module unisims_ver.x_lut3_mux8
-Compiling module unisims_ver.LUT3
-Compiling module unisims_ver.CARRY4
-Compiling module unisims_ver.LUT5
-Compiling module xil_defaultlib.cordic_0
-Compiling module unisims_ver.SRLC32E_default
-Compiling module xil_defaultlib.div_gen_0
-Compiling module xil_defaultlib.spm
-Compiling module xil_defaultlib.top
-Compiling module xil_defaultlib.top_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot top_tb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
