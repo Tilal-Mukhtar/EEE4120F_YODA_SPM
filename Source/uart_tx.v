@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // UCT EEE4120F
-// Author: Tilal Zaheer Mukhtar
+// Reference: Based on code written by Anas Salah Eddin available at https://github.com/aseddin/ece_3300
 // 
 // Create Date: 17.05.2024 10:59:33
 // Project Name: YODA SPM
